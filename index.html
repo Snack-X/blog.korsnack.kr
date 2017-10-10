@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<section class="blog-list">
+  <ul class="post-list">
+  {% for post in site.posts %}
+    <li class="item">
+      <span class="title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span>
+      <span class="date"><time>{{ post.date | date: "%Y-%m-%d" }}</time></span>
+    </li>
+  {% endfor %}
+  </ul>
+</section>

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="blog-article">
+  <header class="article-header">
+    <h2 class="title"><a href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></h2>
+    <span class="date"><time>{{ page.date | date: "%Y/%m/%d" }}</time></span>
+  </header>
+
+  <section class="article-content">{{ content }}</section>
+
+  <footer class="article-footer">
+    <span class="time"><strong>Timestamp</strong>: <time>{{ page.date | date: "%Y-%m-%d %H:%M:%S" }}</time></span>
+    <span class="permalink"><strong>Permalink</strong>: <a href="{{ page.url | prepend: site.baseurl }}">{{ page.url | prepend: site.url }}</a></span>
+  </footer>
+</article>

@@ -1,0 +1,237 @@
+//==============================================================================
+// BASE SETUP
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 3rem;
+  width: 100%;
+  max-width: 1200px;
+  color: $color-black;
+  font-family: $font-sans-serif;
+}
+
+a {
+  color: #0074d9;
+}
+
+//==============================================================================
+// HELPER
+
+._clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+._pull-right { float: right; }
+
+//==============================================================================
+// STYLES
+
+.blog-header {
+  text-align: center;
+
+  .title {
+    margin: 3rem 0 0;
+    font-size: 5rem;
+    font-weight: lighter;
+
+    a {
+      color: $color-black;
+      text-decoration: none;
+      letter-spacing: -.25rem;
+    }
+  }
+
+  .description {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: -.066rem;
+  }
+}
+
+.blog-navigation {
+  margin: 0 -1rem;
+  padding: .5rem 0;
+  text-align: center;
+  border-top: 1px solid $color-gray;
+  border-bottom: 1px solid $color-gray;
+
+  .item {
+    display: inline-block;
+    margin: .5rem .2rem;
+    color: $color-black;
+    text-decoration: none;
+    font-size: .9rem;
+  }
+}
+
+.blog-content {
+  padding: 2rem 0;
+}
+
+.blog-footer {
+  padding: 2rem 0;
+  border-top: 1px solid $color-gray;
+  text-align: center;
+  font-size: .8rem;
+
+  a { text-decoration: none; }
+}
+
+.blog-article {
+  &+.blog-article {
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid $color-gray;
+  }
+
+  .article-header {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $color-silver;
+
+    .title {
+      margin: 0;
+      margin-bottom: .5rem;
+      font-size: 2rem;
+      font-weight: lighter;
+      letter-spacing: -.1rem;
+
+      a {
+        color: $color-black;
+        text-decoration: none;
+      }
+    }
+
+    .category a {
+      text-decoration: none;
+    }
+  }
+
+  .article-content {
+    padding: 3rem 0;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    word-break: break-word;
+
+    img {
+      display: block;
+      margin: auto;
+      max-width: 80%;
+    }
+
+    pre {
+      padding: 0.5em;
+      font-family: $font-monospace;
+      overflow-x: auto;
+    }
+
+    blockquote {
+      margin: 1rem 0;
+      padding: 0 1rem;
+      quotes: "\201C""\201D""\2018""\2019";
+      border-left: 2px solid $color-blue;
+      font-family: $font-serif;
+    }
+  }
+
+  .article-footer {
+    border-top: 1px solid $color-silver;
+
+    span {
+      margin: .3rem 0;
+      display: block;
+      font-size: .8rem;
+      text-align: right;
+    }
+  }
+}
+
+.blog-list {
+  .header {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+  }
+
+  .post-list {
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+    list-style-type: none;
+
+    .item {
+      @extend ._clearfix;
+
+      margin: 0;
+      padding: 0;
+      border-bottom: 1px solid #ddd;
+
+      &:last-child { border-bottom: 0; }
+
+      .title, .date {
+        display: inline-block;
+        margin: .7rem 0;
+        line-height: 1.6rem;
+      }
+
+      .title {
+        a { text-decoration: none; }
+      }
+
+      .date {
+        float: right;
+      }
+    }
+  }
+}
+
+.blog-pagination {
+  margin: 3rem 0 1rem;
+  text-align: center;
+
+  a { text-decoration: none; }
+
+  .item, .interword { padding: 0 .5rem; }
+
+  .item {
+    .selected {
+      color: #111;
+      font-weight: bold;
+    }
+
+    &.-no-more-prev, &.-no-more-next {
+      color: #ddd;
+      cursor: not-allowed;
+    }
+  }
+
+  .interword {
+    color: #aaa;
+    font-weight: lighter;
+  }
+}
+
+//==============================================================================
+// MEDIA QUERY
+
+@media (max-width: 768px) {
+  html { font-size: 15px; }
+  body { padding: 0 1rem; }
+}
+
+@media (max-width: 480px) {
+  html { font-size: 14px; }
+  body { padding: 0 1rem; }
+}

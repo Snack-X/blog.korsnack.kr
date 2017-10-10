@@ -1,0 +1,37 @@
+baseurl: ""
+url: "https://blog.korsnack.kr"
+
+title: Snack Blog
+name: Snack Blog
+description: Just another geeky blog
+copyright:
+  year: "2015~2017"
+  name: Snack
+
+timezone: Asia/Seoul
+permalink: /:title
+
+twitter:
+  username: Snack_X
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
