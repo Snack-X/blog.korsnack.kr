@@ -4,9 +4,8 @@ title: "THE IDOLM@STER NEW YEAR LIVE 初星宴舞 - DAY 2"
 date: 2018-01-07 00:00:00 +09:00
 ---
 
-2018년 첫 라이브.
-
-with [@d0gtal](https://twitter.com/d0gtal/), [@YodleSnapTrap](https://twitter.com/YodleSnapTrap), [@hex09124](https://twitter.com/hex09124)
+장소 : MEGABOX 신촌
+동행 : [@d0gtal](https://twitter.com/d0gtal/), [@YodleSnapTrap](https://twitter.com/YodleSnapTrap), [@hex09124](https://twitter.com/hex09124)
 
 1.  THE IDOLM@STER -初星 mix- (765PRO ALLSTARS)
 2.  ステキハピネス (中村繪里子)
