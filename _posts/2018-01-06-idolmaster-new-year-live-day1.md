@@ -7,7 +7,7 @@ date: 2018-01-06 00:00:00 +09:00
 2018년 첫 라이브.
 
 장소 : MEGABOX 신촌
-동행 : [@d0gtal](https://twitter.com/d0gtal/), [@YodleSnapTrap](https://twitter.com/YodleSnapTrap)
+동행 : [@d0gtal](https://twitter.com/d0gtal), [@YodleSnapTrap](https://twitter.com/YodleSnapTrap)
 
 1.  THE IDOLM@STER -初星 mix- (765PRO ALLSTARS)
 2.  START!! (中村繪里子)
