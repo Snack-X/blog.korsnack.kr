@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "THE IDOLM@STER CINDERELLA GIRLS 5thLIVE TOUR Serendipity Parade!!! SSA公演 - DAY 1"
+title: "(LV) THE IDOLM@STER CINDERELLA GIRLS 5thLIVE TOUR Serendipity Parade!!! SSA公演 - DAY 1"
 date: 2017-08-12 00:00:00 +09:00
 ---
 

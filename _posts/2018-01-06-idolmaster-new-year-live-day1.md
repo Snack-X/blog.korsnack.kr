@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "THE IDOLM@STER NEW YEAR LIVE 初星宴舞 - DAY 1"
+title: "(LV) THE IDOLM@STER NEW YEAR LIVE 初星宴舞 - DAY 1"
 date: 2018-01-06 00:00:00 +09:00
 ---
 

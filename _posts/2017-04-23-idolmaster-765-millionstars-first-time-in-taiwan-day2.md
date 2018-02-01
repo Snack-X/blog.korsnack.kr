@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "THE IDOLM@STER 765 MILLIONSTARS First Time in TAIWAN - DAY 2"
+title: "(LV) THE IDOLM@STER 765 MILLIONSTARS First Time in TAIWAN - DAY 2"
 date: 2017-04-23 00:00:00 +09:00
 ---
 
