@@ -130,10 +130,20 @@ a {
       max-width: 80%;
     }
 
+    code {
+      padding: .125rem .25rem;
+      border-radius: .25rem;
+    }
+
     pre {
       padding: 0.5em;
       font-family: $font-monospace;
       overflow-x: auto;
+
+      code {
+        padding: 0;
+        border-radius: 0;
+      }
     }
 
     blockquote {
